@@ -1,5 +1,3 @@
-//@flow
-
 import { NativeModules } from 'react-native'
 
 const { RNPhotoEditor } = NativeModules
@@ -51,3 +49,5 @@ export default function PhotoEditor(props: Props) {
         onCancel
     )
 }
+
+export { PhotoEditor as RNPhotoEditor }
