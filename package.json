@@ -14,6 +14,9 @@
         "react-native"
     ],
     "author": "Pranav Raj Singh Chauhan",
+    "devDependencies": {
+        "prettier": "1.17.0"
+    },
     "peerDependencies": {
         "react-native": ">=0.50.0"
     },
